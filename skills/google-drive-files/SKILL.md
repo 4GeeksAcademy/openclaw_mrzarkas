@@ -1,5 +1,5 @@
 ---
-title: google drive files
+name: google drive files
 description: Create, update, organize, and retrieve files in Google Drive using the configured Zapier integration.
 ---
 

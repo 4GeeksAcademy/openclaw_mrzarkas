@@ -1,5 +1,5 @@
 ---
-title: google calendar events
+name: google calendar events
 description: Create, update, retrieve, and delete Google Calendar events using the configured Zapier integration.
 ---
 

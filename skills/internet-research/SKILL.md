@@ -1,5 +1,5 @@
 ---
-title: internet research
+name: internet research
 description: Search, verify, and summarize current information from the internet using OpenClaw web tools and DuckDuckGo.
 ---
 
