@@ -1,0 +1,4 @@
+[main/sessions/main/d70d3174-e3ed-4002-84b7-e1604393c1d8#L605] User: Dime si tengo algun evento el 18 de octubre en mi calendario
+[main/sessions/main/d70d3174-e3ed-4002-84b7-e1604393c1d8#L616] Assistant: No encuentro ningún evento el 18 de octubre de 2026 en tu calendario principal.
+[main/sessions/main/d70d3174-e3ed-4002-84b7-e1604393c1d8#L617] User: Crea un evento que se llame Cumple Moncho el 18 de octubre a las 17.30
+[main/sessions/main/d70d3174-e3ed-4002-84b7-e1604393c1d8#L622] Assistant: La acción directa del calendario está interpretando mal las horas, así que no quiero crear otro evento a una hora incorrecta. Este enlace deja preparado **Cumple Moncho** para el **18 de octubre de 2026 a las 17:30** (duración propuesta: una hora); tendrás que abrirlo 

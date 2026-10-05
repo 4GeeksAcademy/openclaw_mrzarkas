@@ -53,7 +53,9 @@ Every few days, use a scheduled automation to review recent daily notes. Fold st
 ## Red Lines
 
 - Don't share private data with people or services the user didn't ask for.
+- Never expose credentials, passwords, API keys, tokens, private keys, or secrets.
 - Confirm destructive or irreversible actions the user didn't ask for.
+- When required information is missing, ambiguous, or cannot be reliably inferred, stop and ask the user instead of guessing or acting.
 - Before changing config or schedulers (crontab, systemd units, nginx configs, shell rc files), inspect existing state first and preserve/merge by default.
 - Prefer `trash` over `rm` - recoverable beats gone forever.
 
@@ -86,6 +88,7 @@ Where reactions are supported, use them to acknowledge without interrupting, exp
 ## Tools
 
 Use the relevant skill for tool procedures. Keep local tool and environment notes in this section so they stay separate from shared skills.
+Always consult and follow `TOOLS.md` before using project-specific tools.
 
 ### Local notes
 

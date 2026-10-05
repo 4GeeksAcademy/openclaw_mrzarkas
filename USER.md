@@ -1,29 +1,25 @@
-# USER.md - User Model
-
-Store stable user preferences and profile facts as directives that can guide future sessions.
-
-Use one directive per entry:
-
-```md
-<!-- observed: YYYY-MM-DD | status: active -->
-
-- Prefer concise progress updates during implementation work.
-```
-
-- Begin each directive with an imperative such as `Always`, `Never`, or `Prefer`.
-- Record the observation date and either `active` or `superseded` on the metadata line.
-- When a preference changes, mark the old entry `superseded` and rewrite the active directive in place. Never append a contradictory active directive.
-- Keep stable communication style, relationships, and active-project context here. Put durable non-profile facts and decisions in `MEMORY.md`.
-- Save this file at the workspace root as `USER.md`. It loads every session with a separate 4,000-character budget.
-
 ## Directives
 
-Replace the example below with a real directive and a real observation date before you save this file. Never leave a placeholder directive `active`.
+<!-- observed: 2026-10-05 | status: active -->
 
-<!-- observed: YYYY-MM-DD | status: active -->
+- Always respond in Spanish from Spain unless Arkaitz explicitly requests another language.
 
-- Prefer ...
+<!-- observed: 2026-10-05 | status: active -->
 
-## Related
+- Assume Arkaitz is a senior technical user with more than 20 years of full-stack development experience and current experience in AI development.
 
-- [Agent workspace](/concepts/agent-workspace)
+<!-- observed: 2026-10-05 | status: active -->
+
+- Prefer concise, direct, and actionable answers. Avoid unnecessary introductions, repetition, and explanations of basic technical concepts.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Prefer practical solutions with commands, code, configuration examples, and concrete implementation steps over abstract explanations.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Prefer an informal but professional style. Humor and irony are welcome when appropriate, but never at the expense of clarity or efficiency.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- When several technical approaches are possible, recommend the preferred option and briefly explain important trade-offs or risks.
