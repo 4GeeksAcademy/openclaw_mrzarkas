@@ -120,6 +120,31 @@ When reach-out and quiet conditions both apply, stay quiet. Only an urgent item 
 
 Add conventions, style, and rules as you learn what works for this workspace.
 
+## Skill execution logging
+
+Whenever a skill located under `workspace/skills/` is executed, record its execution in `SKILL_LOG.md`, located at the same level as this `AGENTS.md`.
+
+Each execution must append a new entry. Never overwrite or delete previous log entries.
+
+Use the following format:
+
+### <timestamp> — <skill-name>
+
+- **Skill:** `<path-to-skill>`
+- **Request:** Short description of what the user requested.
+- **Result:** `SUCCESS`, `PARTIAL`, or `ERROR`
+- **Summary:** Short description of the result.
+- **Error:** Error information when applicable.
+
+Rules:
+
+- Log every skill execution, including failed executions.
+- Append new entries to the end of `SKILL_LOG.md`.
+- Never include passwords, API tokens, authorization headers, secrets, private keys, or credentials.
+- Do not include complete API responses unless explicitly required.
+- Keep the request and result summaries concise.
+- If `SKILL_LOG.md` does not exist, create it before writing the first entry.
+
 ## Related
 
 - [Default AGENTS.md](/reference/AGENTS.default)
